@@ -1,0 +1,71 @@
+.h1 {
+    background-color: #00377E;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main {
+    margin-top: 20px;
+    text-align: justify;
+    border: solid 3px blue;
+    background-color: rgba(255, 0, 0, 0.288);
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.p {
+    padding: 10px;
+}
+
+.li {
+    background-color: violet;
+    padding: 10px;
+}
+
+.nomain {
+    margin-bottom: 20px;
+}
+
+.play {
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+
+
+/*641*/
+
+@media only screen and (min-width:641px) {
+    .nomain {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:880px) {
+    .main {
+        display: grid;
+        grid-column: auto;
+        min-width: 30%;
+    }
+    .nomain {
+        margin-left: 10%;
+        display: grid;
+        grid-column: auto;
+        max-width: 30%;
+        margin-top: 20px;
+    }
+    .contain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

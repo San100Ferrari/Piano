@@ -1,0 +1,44 @@
+h1 {
+    color: #516BFF;
+    font-weight: bold;
+    text-shadow: 4px 1px 2px #90A8E4;
+    font-size: 60px;
+    margin: 2%;
+    border-radius: 25px;
+    padding: 10px;
+    width: 18%;
+    white-space: nowrap;
+}
+
+.h2 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.p {
+    display: block;
+    width: 80%;
+    border: solid blue 3px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+
+/*la color est à 62.5%*/
+
+@media only screen and (min-width: 950px) {
+    .para1 {
+        display: grid;
+        grid-column: auto;
+    }
+    .para2 {
+        display: grid;
+        grid-column: auto;
+    }
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

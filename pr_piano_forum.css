@@ -1,0 +1,68 @@
+/*h1 conditions h2 p input*/
+
+.h1 {
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.conditions {
+    margin-top: 20px;
+    text-align: justify;
+    border: solid 3px blue;
+    background-color: rgba(255, 0, 0, 0.288);
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.p {
+    padding: 10px;
+}
+
+.btn {
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.h3 {
+    font-size: 30px;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.btnCond {
+    min-width: auto;
+    word-wrap: break-word;
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+
+.div {
+    background-color: lavender;
+    margin-bottom: 30px;
+    padding: 20px;
+    /*groove ridge inset outset*/
+    border: rgb(12, 90, 116) ridge 20px;
+    text-align: center;
+}
+
+.img {
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+}

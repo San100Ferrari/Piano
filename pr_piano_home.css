@@ -1,0 +1,175 @@
+h1 {
+    color: #00072D;
+    font-weight: bold;
+    text-shadow: 4px 1px 3px #701717;
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+.intro {
+    margin: 10px 50px 10px 50px;
+    padding: 10px;
+    border: #630404 2px dotted;
+    border-radius: 30px;
+    text-align: justify;
+}
+
+.cercle {
+    border: black 1px solid;
+    border-radius: 50%;
+    margin: 10px 25% 10px 25%;
+}
+
+.containimg {
+    background-color: black;
+}
+
+.sommaire {
+    display: block;
+    margin: 10px 25px 30px 25px;
+    padding: 5px;
+    border: blue solid 3px;
+    text-align: justify;
+}
+
+.h2odd,
+.h2even,
+.h2final {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    margin: 20px 0px 10px 0px;
+    font-size: 40px;
+}
+
+#Renaissance {
+    border-top: #010B34 4px solid;
+    color: #010B34;
+    border-bottom: 1px dotted #010B34;
+}
+
+#Baroque {
+    border-top: #020E3B 4px solid;
+    color: #020E3B;
+    border-bottom: 1px dotted #020E3B;
+}
+
+#Classique {
+    border-top: #031449 4px solid;
+    color: #031449;
+    border-bottom: 1px dotted #031449;
+}
+
+#Pré-romantique {
+    border-top: #041A57 4px solid;
+    color: #041A57;
+    border-bottom: 1px dotted #041A57;
+}
+
+#Romantique {
+    border-top: #052064 4px solid;
+    color: #052064;
+    border-bottom: 1px dotted #052064;
+}
+
+#Post-romantique {
+    border-top: #0B2568 4px solid;
+    color: #0B2568;
+    border-bottom: 1px dotted #0B2568;
+}
+
+#Moderne {
+    border-top: #112A6B 4px solid;
+    color: #112A6B;
+    border-bottom: 1px dotted #112A6B;
+}
+
+#Contemporaine {
+    border-top: #172F6F 4px solid;
+    color: #172F6F;
+    border-bottom: 1px dotted #172F6F;
+}
+
+.h2final {
+    border-top: #1C3472 4px solid;
+    color: #1C3472;
+    border-bottom: 1px dotted #1C3472;
+}
+
+
+/*dégradé de couleur pour les titres:
+00072D : titre h1 !!!!!
+010B34
+020E3B
+031449
+041A57
+052064
+0B2568
+112A6B
+172F6F
+1C3472
+essayer avec le mélange de rouge à 100% pour le contenu des sections : 
+2D0000 330101 3A0101 490202 560404 630404 680B0B 6B1111 701717 721C1C
+*/
+
+.podd,
+.peven,
+.sectionfinal {
+    text-align: justify;
+    margin: 10px;
+    border: solid yellow 2px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+/*
+- changer de position les paragraphes gauche ou droite en fonction 
+de si la section est odd ou even
+*/
+
+@media only screen and (min-width: 768px) {
+    .cercle {
+        margin: 10px auto 20px 90px;
+    }
+    .containimg {
+        background-color: white;
+    }
+    .debutpage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .podd {
+        display: inline-block;
+        width: 40%;
+        text-align: center;
+    }
+    .peven {
+        display: inline-block;
+        margin-block-end: 10px;
+        width: 40%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .intro {
+        display: grid;
+        grid-column: auto;
+    }
+    .containimg {
+        display: grid;
+        grid-column: auto;
+    }
+    .sommaire {
+        display: grid;
+        grid-column: auto;
+    }
+    .debutpage {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

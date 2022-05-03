@@ -1,0 +1,81 @@
+.h1 {
+    color: #516BFF;
+    font-weight: bold;
+    text-shadow: 4px 1px 2px #90A8E4;
+    font-size: 60px;
+    margin: 2%;
+    border-radius: 25px;
+    padding: 10px;
+    width: 18%;
+    white-space: nowrap;
+}
+
+.sectionform {
+    margin: 50px;
+    border: solid 3px black;
+    background-color: aquamarine;
+}
+
+.h2 {
+    font-size: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid black 2px;
+}
+
+.mailcontact {
+    margin: 50px;
+    border: solid 3px black;
+}
+
+.mailcontact .h2 {
+    background-color: aquamarine;
+}
+
+.form {
+    margin: 10px;
+    line-height: 1.5em;
+}
+
+.button {
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+
+.containp {
+    text-align: center;
+    margin: 50px;
+    border: blue dotted 2px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.p {
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+@media only screen and (min-width:550px) {
+    .form {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:750px) {
+    .sectionform {
+        display: grid;
+        grid-column: auto;
+    }
+    .mailcontact {
+        display: grid;
+        grid-column: auto;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .mailcontact .h2 {
+        border-bottom: none;
+    }
+}
